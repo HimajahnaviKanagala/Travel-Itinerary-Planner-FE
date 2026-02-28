@@ -1,6 +1,6 @@
 # 🌍 **Wanderlust — Travel Itinerary Planner**
 
-> A modern, beautiful travel itinerary planner built with React. Plan trips, track expenses, manage packing lists, store documents, and discover activity recommendations — all in one place.
+ A modern, beautiful travel itinerary planner built with React. Plan trips, track expenses, manage packing lists, store documents, and discover activity recommendations — all in one place.
 
 ---
 
@@ -147,8 +147,6 @@ VITE_API_URL=http://localhost:4000/api
 npm run dev
 ```
 
-The app will be available at `http://localhost:3000`
-
 ### 5. Build for production
 
 ```bash
@@ -159,9 +157,7 @@ npm run build
 
 ## 🚀 Deployment Link
 
-> **Live App:** `https://your-deployment-url.com`
-
-> ⚠️ Replace this with your actual deployed frontend URL (Vercel / Netlify / etc.)
+> **Live App:** https://travel-itinerary-planner-fe-fepy.vercel.app
 
 **Recommended deployment platforms:**
 
@@ -180,12 +176,9 @@ VITE_API_URL=https://your-backend-url.com/api
 
 ## 🔗 Backend API Link
 
-> **Backend Repository:** `https://github.com/your-username/wanderlust-backend`
+> **Backend Repository:** https://github.com/HimajahnaviKanagala/Travel-Itinerary-Planner-BE
 
-> **Live API Base URL:** `https://your-backend-url.com/api`
-
-> ⚠️ Replace these with your actual backend repository and deployment URLs.
-
+> **Live API Base URL:** https://travel-itinerary-planner-be-1.onrender.com
 ---
 
 ## 🔑 Login Credentials
@@ -212,8 +205,6 @@ Email:    admin@wanderlust.com
 Password: password123
 ```
 Access: Everything TRAVEL_AGENT can do + user management panel (change roles, activate/deactivate users).
-
-> ⚠️ Create these accounts manually in your Supabase `users` table and set the `role` column accordingly, or register via the app and update the role in Supabase.
 
 ---
 
@@ -255,17 +246,9 @@ Access: Everything TRAVEL_AGENT can do + user management panel (change roles, ac
 
 ## 🎥 Video Walkthrough Link
 
-> **Video Walkthrough:** `https://your-video-link.com`
+> **Video Walkthrough:** https://drive.google.com/file/d/1ggK9OrRNp7-nttHi7GTKErHifIFxuBfh/view?usp=sharing
 
 > ⚠️ Replace with your actual video link (Loom / YouTube / Google Drive, etc.)
-
-**Recommended tools for recording:**
-
-| Tool | Free | Link |
-|------|------|-------|
-| Loom | ✅ | [loom.com](https://loom.com) |
-| YouTube (unlisted) | ✅ | [youtube.com](https://youtube.com) |
-| Google Drive | ✅ | [drive.google.com](https://drive.google.com) |
 
 ---
 
@@ -335,18 +318,3 @@ wanderlust-frontend/
 
 ---
 
-## 🔐 Role-Based Access Summary
-
-| Feature | USER | TRAVEL_AGENT | ADMIN |
-|---|---|---|---|
-| View & manage own trips | ✅ | ✅ | ✅ |
-| Add recommendations to trips | ✅ | ✅ | ✅ |
-| Global recommendations page | ❌ | ✅ | ✅ |
-| Approve / moderate reviews | ❌ | ✅ | ✅ |
-| Admin panel (user management) | ❌ | ❌ | ✅ |
-| Change user roles | ❌ | ❌ | ✅ |
-| Deactivate users | ❌ | ❌ | ✅ |
-
----
-
-*Built with ❤️ using React + Vite + Tailwind CSS*
