@@ -210,8 +210,6 @@ Access: Everything TRAVEL_AGENT can do + user management panel (change roles, ac
 
 ## 📸 Screenshots
 
-> ⚠️ Add your screenshots to a `/screenshots` folder in your repository and update the paths below.
-
 ### Landing Page
 ![Landing Page](./screenshots/landing.png)
 
@@ -247,8 +245,6 @@ Access: Everything TRAVEL_AGENT can do + user management panel (change roles, ac
 ## 🎥 Video Walkthrough Link
 
 > **Video Walkthrough:** https://drive.google.com/file/d/1ggK9OrRNp7-nttHi7GTKErHifIFxuBfh/view?usp=sharing
-
-> ⚠️ Replace with your actual video link (Loom / YouTube / Google Drive, etc.)
 
 ---
 
@@ -309,10 +305,7 @@ wanderlust-frontend/
 │   └── index.css
 ├── index.html
 ├── vite.config.js
-├── tailwind.config.js
-├── postcss.config.js
 ├── .env
-├── .env.example
 └── package.json
 ```
 
